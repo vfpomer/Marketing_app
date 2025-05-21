@@ -42,15 +42,14 @@ Advanced analysis of marketing campaign performance data using Python, focusing 
   - scipy: Statistical analysis
 
 ## 📂 Project Structure
-├── data/ │ 
-    ├── marketingcampaigns.csv │ 
-    └── marketingcampaigns_limpio.csv 
+├── data/
+│   ├── marketingcampaigns.csv
+│   └── marketingcampaigns_limpio.csv
 ├── notebooks/ │ 
     ├── marketing_eda.ipynb │ 
     └── marketing_preprocesamiento.ipynb 
-├── README.md 
-└── app.py
-
+├── app.py
+└── README.md
 
 ## 🔍 Key Findings
 1. No strong correlation between budget and revenue
