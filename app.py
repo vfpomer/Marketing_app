@@ -336,10 +336,12 @@ try:
 
                     #texto adicional
                     st.markdown("""
-                        Distribución y Efectividad de Canales
-                        \n- La distribución de canales es equilibrada: promotion (27.2%), referral (25%), organic (24.1%) y paid (23.7%)
-                        \n- El canal promotion muestra el ROI más alto (<del>0.95), seguido por organic (</del>0.83), mientras que referral presenta el ROI más bajo (~0.55).
+                        Distribución y Efectividad de Canales con todos los datos:
+                        \n- La distribución de canales es equilibrada: promotion (27.2%), referral (25%), organic (24.1%) y paid (23.7%).
+                        \n- El canal promotion destaca con el mejor ROI, seguido por organic, mientras que referral presenta el ROI más bajo.
+                        \n- La estrategia multicanal muestra ser efectiva, sin dependencia excesiva de un solo canal.
                         """)
+                    
 
                     # 📌 Pestaña 2: ROI
                     with mark_tabs[1]:
@@ -418,11 +420,11 @@ try:
 
                         #texto adicional
                         st.markdown("""
-                            La media del ROI es 0.53, con una desviación estándar de 0.26 
+                            El ROI promedio es 0.53, con desviación estándar de 0.26.
                             Factores asociados a ROI alto:
-                            \n- Uso de canales orgánicos y promocionales
-                            \n- Campañas tipo podcast y social media
-                            \n- Ejecución en Q2 (especialmente abril-junio)
+                            \n- Uso de canales orgánicos y promocionales.
+                            \n- Campañas tipo podcast y social media.
+                            \n- Ejecución en segundo trimestre.
                             """)
 
             #..------------------fin pestaña 2
@@ -702,14 +704,14 @@ try:
                     #texto adicional
                     st.markdown("""
                         Rendimiento por Tipo de Campaña:
-                        \n- Los webinars lideran en conversión (55.64%), seguidos por social media (53.96%)
-                        \n- Las campañas de podcast y social media generan los mayores ingresos promedio (~$529,000)
-                        \n- El tipo "event" muestra el rendimiento más bajo tanto en conversión como en ingresos.
+                        \n- Los webinars muestran la mejor tasa de conversión (55.64%), seguidos por social media (53.96%).
+                        \n- Las campañas de podcast y social media generan los mayores ingresos promedio (~529,000€).
+                        \n- Los eventos presenciales muestran el rendimiento más bajo tanto en conversión como en ingresos.
                                 
                         \nCampañas de Alto Rendimiento:
-                        \n- 10 campañas superan el umbral de ROI > 0.5 e ingresos > $500,000
-                        \n- Predominan los canales organic y paid
-                        \n- Tipos más exitosos: podcast y social media
+                        \n- 10 campañas superan ROI > 0.5 e ingresos > 500,000€.
+                        \n- Predominan canales organic y paid.
+                        \n- Destacan tipos podcast y social media.
                     """)
       
 
@@ -789,8 +791,8 @@ try:
                      #texto adicional
                     st.markdown("""
                         Comparación B2B vs B2C:
-                        \n- No hay diferencias estadísticamente significativas (p-valor = 0.2775)
-                        \n- B2B muestra una media ligeramente superior (55.02% vs 53.20% en B2C)
+                        \n- No existen diferencias estadísticamente significativas (p-valor = 0.2775).
+                        \n- B2B muestra una conversión ligeramente superior (55.02% vs 53.20%).
                         \n- La variabilidad es similar en ambos segmentos
 
                     """)
@@ -844,8 +846,8 @@ try:
                      #texto adicional
                     st.markdown("""
                         Correlación Presupuesto-Ingresos:
-                        \n- No existe una correlación fuerte entre presupuesto e ingresos
-                        \n- La eficiencia en la asignación de recursos es más importante que el monto invertido
+                        \n- No existe correlación fuerte entre presupuesto e ingresos.
+                        \n- La eficiencia en la asignación de recursos es más importante que el volumen de inversión.
 
                     """)
 
@@ -910,9 +912,18 @@ try:
                           #texto adicional
                         st.markdown("""
                                 Patrones Estacionales:
-                                \n- Q2 (abril-junio) muestra el mejor rendimiento general
-                                \n- Q4 presenta una caída significativa, especialmente en diciembre
-                                \n- 2025 Q1 muestra una recuperación notable en conversión (65%)
+                                \n- Segundo trimestre muestra el mejor rendimiento.
+                                \n- Cuarto trimestre presenta caídas significativas, especialmente diciembre.
+                                \n- Primer trimestre 2025 muestra recuperación notable en conversión (65%).
+                                    
+                                📌 Recomendaciones Estratégicas:
+                                \n- Priorizar campañas de podcast y social media en canales orgánicos y promocionales.
+                                \n- Concentrar inversiones importantes en Q2.
+                                \n- Optimizar o reducir campañas en Q4.
+                                \n- Mantener estrategia multicanal balanceada.
+                                \n- Enfocarse en eficiencia presupuestaria más que en volumen.
+                                \n- Implementar estrategias específicas para B2B y B2C según temporada.
+                                \n- El éxito en marketing digital depende más de la optimización táctica y temporal que del volumen de inversión, destacando la importancia de una estrategia diversificada y bien temporizada.
                         """)
 
 
